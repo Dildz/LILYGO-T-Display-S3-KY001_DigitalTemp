@@ -104,11 +104,11 @@ void updateTemperatureValues() {
     // Update Celsius value
     tft.setTextColor(TFT_WHITE, TFT_BLACK);
     tft.setCursor(0, CELSIUS_Y);
-    tft.print(String(temperatureC) + " C");
+    tft.print(String(temperatureC) + " C    ");
     
     // Update Fahrenheit value
     tft.setCursor(0, FAHRENHEIT_Y);
-    tft.print(String(temperatureF) + " F");
+    tft.print(String(temperatureF) + " F    ");
   }
 }
 
