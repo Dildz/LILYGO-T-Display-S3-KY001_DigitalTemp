@@ -27,11 +27,13 @@
 *      display information on the built-in screen.
 *   - DS18B20 pinout: [-] = GND | [S] = Signal PIN | [MIDDLE PIN] = Supply Voltage PIN.
 *
-* DHT11 Specifications:
+* DS18B20 Specifications:
 *   - Communicates over one-wire bus communication
 *   - Power supply range: 3.0V to 5.5V
+*   - Resolution: 9-bit to 12-bit
 *   - Operating temperature range: -55ºC to +125ºC
 *   - Accuracy +/-0.5 ºC (between the range -10ºC to 85ºC)
+
 **********************************************************************************************************/
 
 /*************************************************************
